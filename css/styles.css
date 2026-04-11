@@ -522,7 +522,7 @@ justify-content: center;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-top: 16px;
+    
     fill: #F4F4FD;
         transition-property: background-color;
         transition-duration: 250ms;
@@ -534,7 +534,7 @@ justify-content: center;
     background-color:  #31d0aa; 
 }
 
-.footer-subtitle{
+.footer-social-text{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
