@@ -319,11 +319,10 @@ color: #404bbf;
         border-radius: 50%;
     width: 40px;
     height: 40px;
-    
     fill:#F4F4FD;
     transition-property: background-color;
     transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -333,8 +332,8 @@ color: #404bbf;
 
 .team-social-item{
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
         
        
 
@@ -343,8 +342,7 @@ color: #404bbf;
 .team-social-list{
     display: flex;
     align-items: center;
-        justify-content: center;
-
+    justify-content: center;
     gap:24px
 }
 
@@ -362,12 +360,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-  
     max-width: 232px;
     margin: 0 auto;
-     margin-bottom: 8px;
-    
-
 }
 
 
@@ -414,7 +408,7 @@ color: #404bbf;
     width: calc((100% - 24px * 2) / 3);
     transition-property: box-shadow;
     transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
 
 }
