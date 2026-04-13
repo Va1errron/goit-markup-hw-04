@@ -278,9 +278,10 @@ color: #404bbf;
     white-space: nowrap;
 }
 
-.team-list {display: flex;
-gap: 24px;
-justify-content: center;
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .team-item {
@@ -293,7 +294,7 @@ justify-content: center;
         justify-content: center;
         flex-direction: column;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            background: #fff;
+         background: #fff;
         
         
   
@@ -301,7 +302,12 @@ justify-content: center;
 
 .team-info{
     padding: 32px 16px;
-    max-width: 232px;
+    max-width: 264px;
+    gap: 8px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     
 }
 
@@ -313,7 +319,7 @@ justify-content: center;
         border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-top: 8px;
+    
     fill:#F4F4FD;
     transition-property: background-color;
     transition-duration: 250ms;
@@ -330,7 +336,7 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         
-       margin-top: 8px;
+       
 
 
 }
@@ -406,7 +412,7 @@ justify-content: center;
 .portfolio-item {
     
     width: calc((100% - 24px * 2) / 3);
-    transition-property: box-shadow, background-color;
+    transition-property: box-shadow;
     transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
@@ -415,7 +421,7 @@ justify-content: center;
 
 .portfolio-item:hover, .portfolio-item:focus {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
+    
 }
 .portfolio-info{
     display: flex;
@@ -556,7 +562,7 @@ justify-content: center;
 
 .footer-container {
 display: flex;
-align-items: flex-start;
+align-items: baseline;
 gap: 120px;    
 }
 
